@@ -102,7 +102,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("a user has selected a \"Contact\" on the Perfect Ward Website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 7
- testRunner.When("types \"Name\", \"Last Name\", \"email@here.com\" and \"Telephone number\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("types \"Name\", \"Last Name\", \"email@here.com\" and \"01702  5987541\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 8
  testRunner.And("Selects a Nurse from the dropdown options", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -117,12 +117,9 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("Chooses Google from the How did you hear about us dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 12
- testRunner.And("types a message in the message text field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 13
  testRunner.And("Clicks Submit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 14
+#line 13
  testRunner.Then("the user should see \"Sorry, there was an error submitting the form. Please try ag" +
                         "ain.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
